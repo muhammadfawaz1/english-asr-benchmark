@@ -123,6 +123,7 @@ Three done, two more planned. See [`models.md`](models.md) for status and how to
 ```
 common.py                  shared harness: read_audio, chunk, score() — import this, don't copy it
 asr_evaluation.ipynb       Parakeet / Canary / faster-whisper (done)
+oruk_fourier_2b_eval.ipynb Oruk-Fourier-2B (turnkey common.py notebook; H200 ref run complete, ready for T4 Drive run)
 qwen3_asr_eval.ipynb       Qwen3-ASR-1.7B (planned)
 fireredasr2_eval.ipynb     FireRedASR2-AED (planned — confirm English support first)
 models.md                  status table + how to add a model
